@@ -1,0 +1,31 @@
+.sidebar{
+    height: 100vh;
+    background-color: #ECF2FF;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.sidebar .sidebar-top{
+    height: 60px;
+    padding-top: 20px;
+}
+.sidebar-bottom nav .nav{
+
+    padding-left: 20px;
+    margin-top: 70x;
+    padding-top: 70px;
+    font-size: 20px;
+}
+.sidebar-bottom nav .nav i{
+    padding-top: 7px;
+    padding-right: 10px;
+}
+#active{
+    background-color:azure;
+    margin-top: 70px;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    margin-right: 7px;
+    border-radius: 0px 5px 5px 0px;
+}
+.sidebar-bottom nav .nav:hover{
+    color: #B3005E;
+}
