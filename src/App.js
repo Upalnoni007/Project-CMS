@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
+=======
+import React from 'react';
+import './App.css';
+import Main from './components/Main';
+
+>>>>>>> 936b77030642047611ba01c5934aa6bd8460a00e
 
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +27,13 @@ function App() {
         </a>
       </header>
     </div>
+=======
+      <Main />
+    </div>
+  
+  
+       
+>>>>>>> 936b77030642047611ba01c5934aa6bd8460a00e
   );
 }
 

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "cms1",
+=======
+  "name": "cms",
+>>>>>>> 936b77030642047611ba01c5934aa6bd8460a00e
   "version": "0.1.0",
   "private": true,
   "dependencies": {
