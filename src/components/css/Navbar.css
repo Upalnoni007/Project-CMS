@@ -1,29 +1,5 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
-.nav2{
-    background-color: brown;
-    display:flex;
-    margin: 0px;
-    padding: 0px;
-    justify-content: space-between;
-}
- .nav1{
-    display: grid;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 30px;
-    border: solid black;
-   justify-content: center;
-    width: 70px;
-    font-size: small;
-   text-align: center;
-    background-color: aliceblue;
-}
-.nav1:hover{
-    background-color:#6ECCAF;
-}
-button{
-    border-radius: 7px;
+Nav .login-bt{
+    margin-right: 15px;
+    border-radius: 15px;
+    font-weight: bold;
 }

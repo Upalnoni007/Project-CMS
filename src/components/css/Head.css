@@ -2,12 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-.h1{
+.header{
     height: 90px;
     background-color: aqua;
-    border: solid black;
-    margin: 0px;
-    padding: 0px;
 }
 .hi{
     height: 80px;
