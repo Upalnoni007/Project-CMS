@@ -14,7 +14,7 @@ import Home from "./official-site/nav-items/Home";
 function NavScrollExample() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar className="OffNav" variant="dark" expand="lg">
         <Container fluid>
           {/* <Navbar.Brand href="#">Dashboard</Navbar.Brand> */}
           <Navbar.Toggle aria-controls="navbarScroll" />

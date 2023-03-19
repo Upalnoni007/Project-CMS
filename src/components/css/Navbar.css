@@ -1,5 +1,30 @@
 Nav .login-bt{
     margin-right: 15px;
-    border-radius: 15px;
+    border-radius: 19.2px;
+    border: 2.4px solid white;
+    background-color: black;
+    color: white;
     font-weight: bold;
+    font-size: 14.4px;
+    transition: all 0.1s ease-in-out;
+}
+
+Nav .login-bt:hover{
+    transform: scale(1.07);
+    /* margin-right: 15px; */
+    /* border-radius: 19.2px; */
+    border-color: white;
+    background-color: black;
+    color: white;
+    /* font-weight: bold; */
+    /* font-size: 14.4px; */
+}
+
+.OffNav{
+    background: linear-gradient(90deg, #282A3A 0%, #000000 100%);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: bisque;
+    margin-right: 55px;
 }

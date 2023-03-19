@@ -6,7 +6,7 @@
     /* margin-top: 0px; */
     height: 100vh;
     width: 100%;
-    background-color: #ECF2FF;
+    background: linear-gradient(90deg, #FAEDCD 0%, #FEFAE0 100%);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* margin-left: 15px; */
     border-radius: 10px;
@@ -19,6 +19,7 @@
     margin-bottom: 90px;
     margin-left: 18px;
     font-size: 20px;
+    font-weight: bold;
     cursor: pointer;
 }
 .sidebar nav .nav i{
