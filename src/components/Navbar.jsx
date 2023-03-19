@@ -9,6 +9,7 @@ import './css/Navbar.css';
 import About from "./official-site/nav-items/About";
 import Contact from "./official-site/nav-items/Contact";
 import Home from "./official-site/nav-items/Home";
+import Error from "./official-site/nav-items/Error";
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavScrollExample() {
@@ -59,6 +60,7 @@ function NavScrollExample() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/*" element={<Error />} />
       </Routes>
     </>
   );
