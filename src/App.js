@@ -2,11 +2,14 @@ import React from 'react';
 import Main from './components/Main';
 import Head from './components/Head';
 import Navbar from './components/Navbar';
+import { BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Head/>
-      <Navbar/>
+      <Head />
+      <BrowserRouter>
+        <Navbar />
+      </BrowserRouter>
       <Main />
     </div>
   );

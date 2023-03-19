@@ -1,29 +1,30 @@
-*{
-    padding: 0px;
-    margin: 0px;
+Nav .login-bt{
+    margin-right: 15px;
+    border-radius: 19.2px;
+    border: 2.4px solid white;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 14.4px;
+    transition: all 0.1s ease-in-out;
 }
-.nav2{
-    background-color: brown;
-    display:flex;
-    margin: 0px;
-    padding: 0px;
-    justify-content: space-between;
+
+Nav .login-bt:hover{
+    transform: scale(1.07);
+    /* margin-right: 15px; */
+    /* border-radius: 19.2px; */
+    border-color: white;
+    background-color: black;
+    color: white;
+    /* font-weight: bold; */
+    /* font-size: 14.4px; */
 }
- .nav1{
-    display: grid;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 30px;
-    border: solid black;
-   justify-content: center;
-    width: 70px;
-    font-size: small;
-   text-align: center;
-    background-color: aliceblue;
+
+.OffNav{
+    background: linear-gradient(90deg, #282A3A 0%, #000000 100%);
 }
-.nav1:hover{
-    background-color:#6ECCAF;
-}
-button{
-    border-radius: 7px;
+
+.navbar-dark .navbar-nav .nav-link {
+    color: bisque;
+    margin-right: 55px;
 }
