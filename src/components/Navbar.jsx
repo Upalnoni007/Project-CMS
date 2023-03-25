@@ -50,7 +50,7 @@ function NavScrollExample() {
                 className="me-2"
                 aria-label="Search"
               />
-              <Button variant="outline-success">Search</Button>
+              <Button variant="success">Search</Button>
             </Form>
           </Navbar.Collapse>
         </Container>

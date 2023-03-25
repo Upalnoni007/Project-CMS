@@ -27,4 +27,12 @@ Nav .login-bt:hover{
 .navbar-dark .navbar-nav .nav-link {
     color: bisque;
     margin-right: 55px;
+    font-size: 18px;
+    color: bisque;
+    transition: all 0.1s ease-in-out;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    transform: scale(1.05);
+    color: white;
+    font-weight: bold;
 }
