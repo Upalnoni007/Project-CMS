@@ -4,12 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Route, Routes, Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import './css/Navbar.css';
-import About from "./official-site/nav-items/About";
-import Contact from "./official-site/nav-items/Contact";
-import Home from "./official-site/nav-items/Home";
-import Error from "./official-site/nav-items/Error";
+// import About from "./official-site/nav-items/About";
+// import Contact from "./official-site/nav-items/Contact";
+// import Home from "./official-site/nav-items/Home";
+// import Error from "./official-site/nav-items/Error";
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavScrollExample() {
@@ -55,13 +55,6 @@ function NavScrollExample() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/*" element={<Error />} />
-      </Routes>
     </>
   );
 }
