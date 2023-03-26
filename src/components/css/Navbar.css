@@ -21,7 +21,8 @@ Nav .login-bt:hover{
 }
 
 .OffNav{
-    background: linear-gradient(90deg, #282A3A 0%, #000000 100%);
+    background: rgb(252,70,107);
+    background: linear-gradient(90deg, rgba(252,70,107,1) 0%, rgba(7,13,43,1) 100%);
 }
 
 .navbar-dark .navbar-nav .nav-link {
