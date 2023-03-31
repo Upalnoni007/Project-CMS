@@ -5,6 +5,7 @@ import Home from './components/official-site/nav-items/Home';
 import About from './components/official-site/nav-items/About';
 import Contact from './components/official-site/nav-items/Contact';
 import ErrPage from './components/official-site/nav-items/ErrPage';
+import Faculty from './components/Faculty';
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path='/faculty' element={<Faculty />} />
           <Route exact path="/*" element={<ErrPage />} />
       </Routes>
       </BrowserRouter>

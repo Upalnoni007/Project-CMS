@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {Link} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './css/Navbar.css';
 // import About from "./official-site/nav-items/About";
 // import Contact from "./official-site/nav-items/Contact";
@@ -25,9 +25,9 @@ function NavScrollExample() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/about">About</Nav.Link>
-              <Nav.Link as={Link} to="/contact">Contact us</Nav.Link>
+              <NavLink className="NavItms" to="/">Home</NavLink>
+              <NavLink className="NavItms" to="/about">About</NavLink>
+              <NavLink className="NavItms" to="/contact">Contact us</NavLink>
               {/* <NavDropdown title="Profile" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3" disabled>You are on Admin page</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Settings</NavDropdown.Item>
@@ -40,9 +40,9 @@ function NavScrollExample() {
               Link
             </Nav.Link> */}
             </Nav>
-            <Nav>
+            {/* <Nav>
               <Button variant="light" className="login-bt">Login</Button>
-            </Nav>
+            </Nav> */}
             <Form className="d-flex">
               <Form.Control
                 type="search"
