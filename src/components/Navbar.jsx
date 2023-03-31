@@ -6,10 +6,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from "react-router-dom";
 import './css/Navbar.css';
-// import About from "./official-site/nav-items/About";
-// import Contact from "./official-site/nav-items/Contact";
-// import Home from "./official-site/nav-items/Home";
-// import Error from "./official-site/nav-items/Error";
+// import About from "./adminDashboard/nav-items/About";
+// import Contact from "./adminDashboard/nav-items/Contact";
+// import Home from "./adminDashboard/nav-items/Home";
+// import Error from "./adminDashboard/nav-items/Error";
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavScrollExample() {
