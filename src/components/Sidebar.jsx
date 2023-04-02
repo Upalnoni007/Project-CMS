@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import './css/Sidebar.css';
 
 const Sidebar =()=>{
@@ -11,11 +12,11 @@ const Sidebar =()=>{
                             
                             {/* <div className="sidebar-bottom"> */}
                                 <nav>
-                                    <navlink to ="" className='nav' id="active"><i class="fas fa-book-open"></i>Faculty</navlink>
-                                    <navlink to ="" className='nav'><i class="fas fa-tasks"></i>Student</navlink>
-                                    <navlink to ="" className='nav'><i class="fas fa-user-graduate"></i>Marks</navlink>
-                                    <navlink to ="" className='nav'><i class="fas fa-check"></i>Attendance</navlink>
-                                    <navlink to ="" className='nav'><i class="fas fa-hands-helping"></i>Result</navlink>
+                                    <NavLink to ="/faculty" className='nav'><i className="fas fa-book-open"></i>Faculty</NavLink>
+                                    <NavLink to ="/student" className='nav'><i className="fas fa-tasks"></i>Student</NavLink>
+                                    <NavLink to ="/marks" className='nav'><i className="fas fa-user-graduate"></i>Marks</NavLink>
+                                    <NavLink to ="/attendance" className='nav'><i className="fas fa-check"></i>Attendance</NavLink>
+                                    <NavLink to ="/result" className='nav'><i className="fas fa-hands-helping"></i>Result</NavLink>
                                     {/* <navlink to ="" className='nav'><i class="fas fa-trophy"></i>Achievement</navlink>
                                     <navlink to ="" className='nav'><i class="fas fa-user"></i>Visitors</navlink> */}
                                 </nav>

@@ -1,14 +1,15 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 .header{
+    display: flex;
+    justify-content: center;
     height: 90px;
     background-color: #FAEDCD;
 }
 .hi{
     height: 80px;
     float: left;
+}
+.hi img{
+    margin-right: 20px;
 }
 .mc{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

@@ -1,4 +1,4 @@
-Nav .login-bt{
+/* Nav .login-bt{
     margin-right: 15px;
     border-radius: 19.2px;
     border: 2.4px solid white;
@@ -11,20 +11,34 @@ Nav .login-bt{
 
 Nav .login-bt:hover{
     transform: scale(1.07);
-    /* margin-right: 15px; */
-    /* border-radius: 19.2px; */
     border-color: white;
     background-color: black;
     color: white;
-    /* font-weight: bold; */
-    /* font-size: 14.4px; */
-}
+} */
 
 .OffNav{
-    background: linear-gradient(90deg, #282A3A 0%, #000000 100%);
+    background: rgb(252,70,107);
+    background: linear-gradient(90deg, rgba(252,70,107,1) 0%, rgba(7,13,43,1) 100%);
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: bisque;
+.navbar-dark .navbar-nav .NavItms {
+    color: black;
     margin-right: 55px;
+    font-size: 19px;
+    transition: all 0.1s ease-in-out;
+    text-decoration: none;
 }
+.navbar-dark .navbar-nav .NavItms:hover{
+    transform: scale(1.05);
+    color: bisque;
+    font-weight: bold;
+}
+.navbar-dark .navbar-nav .active{
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    color: bisque;
+    border-radius: 15px;
+    border: solid bisque;
+    border-width: 3.5px;
+    padding: 2px 8px 2px 8px;
+    font-weight: bold;
+  }

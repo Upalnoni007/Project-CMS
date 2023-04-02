@@ -4,12 +4,12 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Route, Routes, Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './css/Navbar.css';
-import About from "./official-site/nav-items/About";
-import Contact from "./official-site/nav-items/Contact";
-import Home from "./official-site/nav-items/Home";
-import Error from "./official-site/nav-items/Error";
+// import About from "./adminDashboard/nav-items/About";
+// import Contact from "./adminDashboard/nav-items/Contact";
+// import Home from "./adminDashboard/nav-items/Home";
+// import Error from "./adminDashboard/nav-items/Error";
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavScrollExample() {
@@ -25,9 +25,9 @@ function NavScrollExample() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/about">About</Nav.Link>
-              <Nav.Link as={Link} to="/contact">Contact us</Nav.Link>
+              <NavLink className="NavItms" to="/">Home</NavLink>
+              <NavLink className="NavItms" to="/about">About</NavLink>
+              <NavLink className="NavItms" to="/contact">Contact us</NavLink>
               {/* <NavDropdown title="Profile" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3" disabled>You are on Admin page</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Settings</NavDropdown.Item>
@@ -40,7 +40,9 @@ function NavScrollExample() {
               Link
             </Nav.Link> */}
             </Nav>
-            <Button variant="light" className="login-bt">Login</Button>
+            {/* <Nav>
+              <Button variant="light" className="login-bt">Login</Button>
+            </Nav> */}
             <Form className="d-flex">
               <Form.Control
                 type="search"
@@ -48,18 +50,11 @@ function NavScrollExample() {
                 className="me-2"
                 aria-label="Search"
               />
-              <Button variant="outline-success">Search</Button>
+              <Button variant="success">Search</Button>
             </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/*" element={<Error />} />
-      </Routes>
     </>
   );
 }
