@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Route, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link, NavLink } from "react-router-dom";
 import './css/Navbar.css';
 import About from "./official-site/nav-items/About";
 import Contact from "./official-site/nav-items/Contact";
@@ -40,9 +40,7 @@ function NavScrollExample() {
               Link
             </Nav.Link> */}
             </Nav>
-            <Nav>
-              <Button variant="light" className="login-bt">Login</Button>
-            </Nav>
+            <Button variant="light" className="login-bt">Login</Button>
             <Form className="d-flex">
               <Form.Control
                 type="search"
