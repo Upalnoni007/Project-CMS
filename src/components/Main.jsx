@@ -8,7 +8,10 @@ const Main =()=>{
                 <div className="row">
                     <div className="col-12 col-md-2 m-0 p-0">
                         <Sidebar />
+                        
+                        
                     </div>
+                
                 </div>
             </div>
         </>
