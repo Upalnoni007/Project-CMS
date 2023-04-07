@@ -4,7 +4,7 @@ import './css/Login.css';
 const Loginfaculty=()=>{
     return(
         <>
-            <img src="https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="login-pic" height="648px" width="100%"/>
+            <img src="https://images.pexels.com/photos/6984992/pexels-photo-6984992.jpeg?auto=compress&cs=tinysrgb&w=600" alt="login-pic" height="740px" width="100%"/>
             <div className="flex-container">
                 <div className="flex-item">
                     <h2 style={{color:'rgb(2, 163, 2)',textAlign:"center",paddingTop:"15px"}}>Faculty Login</h2>
