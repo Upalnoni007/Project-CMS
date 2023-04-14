@@ -1,31 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .sidebar{
+    /* margin-top: 0px; */
     height: 100vh;
-    background-color: #ECF2FF;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    width: 100%;
+    background: linear-gradient(90deg, #FAEDCD 0%, #FEFAE0 100%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* margin-left: 15px; */
+    border-radius: 10px;
 }
-.sidebar .sidebar-top{
-    height: 60px;
-    padding-top: 20px;
-}
-.sidebar-bottom nav .nav{
-
+.sidebar nav .nav{
+    /* padding-bottom: 54px;
     padding-left: 20px;
-    margin-top: 70x;
-    padding-top: 70px;
+    padding-top: 40px ; */
+    margin-top: 48px;
+    margin-bottom: 90px;
+    margin-left: 18px;
     font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.sidebar-bottom nav .nav i{
-    padding-top: 7px;
+.sidebar nav .nav i{
+    padding-top: 6px;
     padding-right: 10px;
 }
-#active{
-    background-color:azure;
+/* #active{
+    background-color:rgb(240, 225, 225);
     margin-top: 70px;
     padding-bottom: 10px !important;
     padding-top: 10px !important;
     margin-right: 7px;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 5px;
+    margin-left: 7px;
+} */
+.sidebar nav .active{
+    background-color:rgb(240, 225, 225);
+    /* margin-top: 70px; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* margin-right: 7px; */
+    border-radius: 5px;
+    /* margin-left: 7px; */
 }
-.sidebar-bottom nav .nav:hover{
+.sidebar nav .nav:hover{
     color: #B3005E;
 }

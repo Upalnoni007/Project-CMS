@@ -1,0 +1,85 @@
+.title h1{
+    margin: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkred;
+    font: bold ;
+}
+.card1{
+    height: 350px;
+    margin-right:80px;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+
+}
+.card1 img{
+    height: 250px;
+    width:100%;
+    
+}
+
+
+.faculty{
+
+    margin-top: 30px;
+    padding-left: 100px;
+
+
+    
+}
+.attendance{
+    margin-left:70px;
+    margin-top: 25px;
+}
+.nav{
+    text-decoration: none;
+    color: black;
+     margin-left: 10px; 
+
+}
+/* .btn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+} */
+.student{
+    margin-top: 30px;
+    padding-left: 100px;
+
+    
+}
+.card2{
+    height: 350px;
+    margin-right:80px;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+
+}
+.card3{
+    height: 350px;
+    margin-right:80px;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+
+}
+.card4{
+    height: 350px;
+    margin-right:80px;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+
+}
+.card5{
+    height: 350px;
+    margin-right:80px;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+
+}
+
+
+
