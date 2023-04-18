@@ -6,6 +6,7 @@ import About from './components/adminDashboard/About';
 import Contact from './components/adminDashboard/Contact';
 import ErrPage from './components/adminDashboard/ErrPage';
 import Faculty from './components/Faculty';
+
 import { Loginforall } from './components/LoginForAll';
 import { Loginadmin } from './components/LoginAdmin';
 import {Loginfaculty} from "./components/LoginFaculty";
@@ -13,7 +14,6 @@ import { Loginstudent } from './components/LoginStudent';
 function App() {
   return (
     <div className="App">
-
       <BrowserRouter>
         <NavLink to="/login"></NavLink>
         <Routes>
@@ -28,7 +28,7 @@ function App() {
           <Route exact path='/Loginstudent' element={<Loginstudent/>}></Route>
         </Routes>
       </BrowserRouter>
-      
+
     </div>
   );
 }

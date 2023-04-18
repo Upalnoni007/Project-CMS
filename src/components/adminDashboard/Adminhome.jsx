@@ -18,9 +18,9 @@ export default function Adminhome() {
         </div>
        </section>
        <section>
-        <div class="container mt-4 ">
+        <div class="container mx-auto ">
             <div class="row">
-                <div class="col-12 col-md-5 col-lg-4">
+                <div class="col-12 col-md-5 col-lg-4 mx-auto">
                     <div class="card1"> 
                         <img src="https://img.freepik.com/free-vector/mathematics-concept-illustration_114360-3972.jpg?w=740&t=st=1681049347~exp=1681049947~hmac=306a325140bb0d168864cbc9de105bd5a2302b5ec3af0c0eaa56571307a12a8e" alt="1"/>
                         <div class="btn">

@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display:flex;
+}
+.container1{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.ECE{
+    text-align:center;
+    font-style:italic;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(170,255,62,1) 100%);
+    margin-left:270px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right:270px;
+    border: solid black;
+    border-radius: 10px;
+}
+.cards{
+    
+    margin-left: 20px;
+    width: 25%;
+    height: 284px;
+}
+.cards:hover{
+    border:3px solid aqua;
+}
+.card img{
+    height:100px;
+    width: 150px;
+    margin-left: 60px;
+}
+.cardinfo{
+    margin-left: 10px;
+}
+.cardname{
+    font-size:medium;
+    font:bolder
+}
