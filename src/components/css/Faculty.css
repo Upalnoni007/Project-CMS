@@ -45,3 +45,9 @@
     font-size:medium;
     font:bolder
 }
+@media screen and(max-width:500px){
+    .container{
+        background-color: blue;
+    }
+}
+

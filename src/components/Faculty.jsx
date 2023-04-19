@@ -16,7 +16,7 @@ function Faculty() {
 
  <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -27,7 +27,7 @@ function Faculty() {
 {/* For teacher 2 */}
  <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -38,7 +38,7 @@ function Faculty() {
 {/* For teacher 3 */}
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -49,7 +49,7 @@ function Faculty() {
 {/* For teacher 4 */}
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -64,7 +64,7 @@ function Faculty() {
 {/* For teacher 1 of row 2 */}  
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -75,7 +75,7 @@ function Faculty() {
 {/* For teacher 2 of row 2 */}
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -86,7 +86,7 @@ function Faculty() {
 {/* For teacher 3 of row 2 */}
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -97,7 +97,7 @@ function Faculty() {
 {/* For teacher 4 of row 2 */}
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -116,7 +116,7 @@ function Faculty() {
 
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -127,7 +127,7 @@ function Faculty() {
 {/* For teacher 2  of row 1 of cse*/}
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -138,7 +138,7 @@ function Faculty() {
 {/* For teacher 3  of row 1 of cse*/}
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -149,7 +149,7 @@ function Faculty() {
 {/* For teacher 4  of row 1 of cse*/}
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -165,7 +165,7 @@ function Faculty() {
 {/* For teacher 1 of row 2 of cse*/}  
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -176,7 +176,7 @@ function Faculty() {
 {/* For teacher 2 of row 2 of cse*/}  
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -187,7 +187,7 @@ function Faculty() {
 {/* For teacher 3 of row 2 of cse*/}  
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
@@ -198,7 +198,7 @@ function Faculty() {
 {/* For teacher 4 of row 2 of cse*/}  
 <div className='cards'>
    <div className='card'>
-    <img src="https://cdna.artstation.com/p/assets/images/images/054/013/744/large/nathan-rosengrun-22-witcher.jpg?1663579518" alt="mypic"></img>
+    <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="mypic"></img>
       <div className='cardinfo'>
         <span className='cardname'>Mr.Shom Lodh<br></br>Assistant Professor of</span>
           <p className='cardtitle'>Electronics And Communication Engineering</p>
