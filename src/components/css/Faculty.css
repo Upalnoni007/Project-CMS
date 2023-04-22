@@ -28,7 +28,7 @@
     
     margin-left: 20px;
     width: 25%;
-    height: 284px;
+    height: 320px;
 }
 .cards:hover{
     border:3px solid aqua;
@@ -40,14 +40,15 @@
 }
 .cardinfo{
     margin-left: 10px;
+    height: 220px;
 }
 .cardname{
     font-size:medium;
     font:bolder
 }
-@media screen and(max-width:500px){
+@media screen and(min-width:500px){
     .container{
-        background-color: blue;
+        display: grid;
     }
 }
 
