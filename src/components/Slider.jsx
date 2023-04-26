@@ -31,8 +31,8 @@ function Slider() {
       <Carousel.Item>
         <img
           className="d-block mx-auto"
-          src="https://scontent.fccu18-1.fna.fbcdn.net/v/t39.30808-6/336881633_156782863616044_7297531814094341053_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=W6PF0hmu9RoAX_HQdEV&_nc_ht=scontent.fccu18-1.fna&oh=00_AfDu38-Re2zamsrmSNVhhFgMdwrQmvZqfDvtZOcJPslbJw&oe=643D602B" height="550px"
-          alt="Second slide"
+          src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/278016788_493134925810974_6419414322591213696_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=19026a&_nc_ohc=_ozbjzSjL2oAX8TuU3z&_nc_ht=scontent.fccu3-1.fna&oh=00_AfAPY8_iK118ydHEhmUxKJ3kRSpcfb7NQwUhQGycZDNI_Q&oe=644876A1" height="550px"
+          alt="Third slide"
         />
 
         <Carousel.Caption>
@@ -44,7 +44,7 @@ function Slider() {
         <img
           className="d-block mx-auto"
           src="https://lsplwebsitedata.s3.ap-south-1.amazonaws.com/mckvi-wp-data/wp-content/uploads/2022/12/08165513/UtopiaWeb.jpg" height="550px"
-          alt="Third slide"
+          alt="Fourth slide"
         />
 
         <Carousel.Caption>
@@ -58,7 +58,7 @@ function Slider() {
         <img
           className="d-block mx-auto"
           src="https://scontent.fccu18-1.fna.fbcdn.net/v/t39.30808-6/273011698_453099849814482_2205560438973126697_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=19026a&_nc_ohc=7E0sR1Je2MIAX-tMs7g&_nc_ht=scontent.fccu18-1.fna&oh=00_AfCmWWbb3zObiFSHsHTPFbo-sMDkAvJ-zYcgooOesoKZqw&oe=643BE4E5" height="550px"
-          alt="Third slide"
+          alt="Fifth slide"
         />
 
         <Carousel.Caption>

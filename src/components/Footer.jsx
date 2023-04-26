@@ -1,42 +1,50 @@
-import React from 'react';
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBIcon,
-  MDBBtn
-} from 'mdb-react-ui-kit';
+import React from 'react'
+import './css/Footer.css'
+import { FaHome } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { IconContext } from 'react-icons/lib';
 
-export default function App() {
+const Footer = () => {
   return (
-    <div className='box' style={{justifyContent:'center'}}>
-    <MDBFooter className='bg-dark text-center text-white'>
-      <MDBContainer className='p-4 pb-0'>
-        <section className='mb-4 ml-4' >
-          <MDBBtn outline color="light" floating className='m-1' href='https://www.facebook.com/mckvieoriginal/' target='_blank' role='button'>
-           
-           <a target="_blank"> 
-           <MDBIcon fab icon='facebook-f' /></a>
-          </MDBBtn>
+    <footer>
+      <div className='footCont d-flex justify-content-around flex-sm-row flex-column'>
 
-          <MDBBtn outline color="light" floating className='m-1' href='https://instagram.com/mckvieofficial?igshid=YmMyMTA2M2Y='target='_blank' role='button'>
-            <MDBIcon fab icon='instagram' />
-          </MDBBtn>
+        <div id='InstAddr' className='py-3'>
+          <p><FaHome size={20} /> &ensp;MCKV Institute of Engineering<br /> &emsp;&emsp;243 G. T. Road (North),Liluah, Howrah – 711204</p><br />
 
-          <MDBBtn outline color="light" floating className='m-1' href='https://www.linkedin.com/company/mckvie/'target='_blank' role='button'>
-            <MDBIcon fab icon='linkedin-in' />
-          </MDBBtn>
+          <p><FaPhoneAlt size={20} /> &ensp;+91 33 2654 9315 / 17<br /> &emsp;&emsp;+91 33 2654 9318</p><br />
 
-          <MDBBtn outline color="light" floating className='m-1' href='https://www.youtube.com/@mckvinstituteofengineering2684/featured'target='_blank' role='button'>
-            <MDBIcon fab icon='youtube' />
-          </MDBBtn>
-        </section>
-      </MDBContainer>
-  
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2023 Copyright: All Copyright Reserved to USBN
+          <p className='mb-0'><MdEmail size={20} /> &ensp;principal@mckvie.edu.in / info@mckvie.edu.in</p>
+        </div>
+
+        <div className='SocialIcoDiv align-self-end'>
+          <IconContext.Provider value={{ size: '27px', color: 'white' }}>
+
+            <a href="https://www.facebook.com/mckvieoriginal/" target='_blank'> <FaFacebook className='SocialIco' /></a> &nbsp;<a href='https://instagram.com/mckvieofficial?igshid=YmMyMTA2M2Y=' target='_blank'> <FaInstagramSquare className='SocialIco' /></a> &nbsp;<a href='https://www.linkedin.com/company/mckvie/' target='_blank'> <FaLinkedin className='SocialIco' /></a> &nbsp;<a href='https://www.youtube.com/@mckvinstituteofengineering2684/featured' target='_blank'> <FaYoutube className='SocialIco' size={34}/></a>
+            
+          </IconContext.Provider>
+        </div>
+
+        <div id='TrustOff' className='py-3'>
+          <p><FaHome size={20} /> &ensp;‘Laxmi Niketan’<br /> &emsp;&emsp;1st Floor 243, G. T. Road(North) Liluah, Howrah – 711 204</p><br />
+
+          <p><FaPhoneAlt size={20} /> &ensp;00 91 33 26548604/05<br /> &emsp;&emsp;00 91 33 2654 9318</p><br />
+
+          <p className='mb-0'><MdEmail size={20} /> &ensp;principal@mckvie.edu.in</p>
+        </div>
+
       </div>
-    </MDBFooter>
-    </div>
-  );
+
+      <div className='Copyright text-align-center text-center'>
+        &copy; 2023 Copyright: All Copyright Reserved to USBN
+      </div>
+    </footer>
+  )
 }
 
+export default Footer

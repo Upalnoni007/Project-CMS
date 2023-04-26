@@ -1,0 +1,20 @@
+.footCont{
+    background-color: #2A2F4F;
+    color: white;
+}
+.SocialIco{
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+.SocialIco:hover{
+    transform: scale(1.06);
+}
+.Copyright{
+    background-color: #394867;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer{
+    margin-top: auto;
+}
