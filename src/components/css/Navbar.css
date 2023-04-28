@@ -22,7 +22,7 @@ Nav .login-bt:hover{
 }
 
 .navbar-dark .navbar-nav .NavItms {
-    color: black;
+    color: white;
     margin-right: 55px;
     font-size: 19px;
     transition: all 0.1s ease-in-out;
