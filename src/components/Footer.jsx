@@ -14,7 +14,7 @@ const Footer = () => {
     <footer>
       <div className='footCont d-flex justify-content-around flex-sm-row flex-column'>
 
-        <div id='InstAddr' className='py-3'>
+        <div id='InstAddr' className='py-3 FootAddr'>
           <h4 className='AddrHeading'>Institute Address</h4>
           <p><FaHome size={20} /> &ensp;MCKV Institute of Engineering<br /> &emsp;&emsp;243 G. T. Road (North),Liluah, Howrah – 711204</p><br />
 
@@ -22,8 +22,9 @@ const Footer = () => {
 
           <p className='mb-0'><MdEmail size={20} /> &ensp;principal@mckvie.edu.in / info@mckvie.edu.in</p>
         </div>
+        <hr/>
 
-        <div id='TrustOff' className='py-3'>
+        <div id='TrustOff' className='py-3 FootAddr'>
           <h4 className='AddrHeading'>Trust Office</h4>
           <p><FaHome size={20} /> &ensp;‘Laxmi Niketan’<br /> &emsp;&emsp;1st Floor 243, G. T. Road(North) Liluah, Howrah – 711 204</p><br />
 

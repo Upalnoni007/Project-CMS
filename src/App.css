@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
-  font-family: 'Tiro Devanagari Hindi', serif;
+  font-family: 'Roboto', sans-serif;
 }
-.slider{
+
+.slider {
   width: 60%;
   margin-left: 360px;
   margin-top: 20px;
