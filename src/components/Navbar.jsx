@@ -25,7 +25,7 @@ function NavScrollExample() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <NavLink className="NavItms" to="/">Home</NavLink>
+              <NavLink className="NavItms" to="/adminHome">Home</NavLink>
               <NavLink className="NavItms" to="/about">About</NavLink>
               <NavLink className="NavItms" to="/contact">Contact us</NavLink>
               {/* <NavDropdown title="Profile" id="navbarScrollingDropdown">

@@ -4,7 +4,6 @@ import '../css/Contact.css'
 
 import NavScrollExample from '../Navbar'
 import Footer from '../Footer'
-// import Footer from '../Footer'
 
 export default function Contact() {
   return (
