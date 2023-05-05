@@ -3,13 +3,13 @@ import './css/Head.css';
 const Head =()=>{
     return(
         <>
-        <div className="header">
-            <div className='hi'>
-               <img src="img/logo2.png" alt="logo" height="80px" width="100px"></img>
+        <div className="header d-flex justify-content-center gap-4">
+            <div className='hi d-flex align-items-center ps-1'>
+               <img src="img/logo2.png" alt="logo"></img>
             </div>
-            <div className="mc"> 
-                <h1> MCKV Institute Of Engineeting</h1>
-                <h5> NAAC accredited autonomus institute under UGC act 1965,Affiliated to MAAKUT</h5>
+            <div className="mc d-flex flex-column gap-1"> 
+                <h1 className="my-auto"> MCKV Institute Of Engineeting</h1>
+                <h5 className="my-auto"> NAAC accredited autonomus institute under UGC act 1965,Affiliated to MAAKUT</h5>
             </div>
         </div>
         </>

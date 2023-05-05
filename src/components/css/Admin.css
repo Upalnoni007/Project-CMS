@@ -1,85 +1,31 @@
-.title h1{
-    margin: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:darkred;
-    font: bold ;
+.div-1 .cards .facultyImg{
+    height: 16rem;
+    width: 50%;
+    object-fit: cover;
 }
-.card1{
-    height: 350px;
-    margin-right:80px;
-    background-color: #FFF;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    border-radius: 20px;
-
-}
-.card1 img{
-    height: 250px;
-    width:100%;
+.div-1 .cards{
     
+    margin: 0px;
+    flex-basis: 30%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.div-1{
+    flex-wrap: wrap;
 }
 
-
-.faculty{
-
-    margin-top: 30px;
-    padding-left: 100px;
-
-
-    
+@media (max-width: 480px){
+    .div-1{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .div-1 .cards{
+        width: 17.5rem;
+        margin: 0 auto;
+    }
+    .div-1 .cards .facultyImg{
+        width: 100%;
+    }
 }
-.attendance{
-    margin-left:70px;
-    margin-top: 25px;
-}
-.nav{
-    text-decoration: none;
+.cards .links{
     color: black;
-     margin-left: 10px; 
-
 }
-/* .btn{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-} */
-.student{
-    margin-top: 30px;
-    padding-left: 100px;
-
-    
-}
-.card2{
-    height: 350px;
-    margin-right:80px;
-    background-color: #FFF;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    border-radius: 20px;
-
-}
-.card3{
-    height: 350px;
-    margin-right:80px;
-    background-color: #FFF;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    border-radius: 20px;
-
-}
-.card4{
-    height: 350px;
-    margin-right:80px;
-    background-color: #FFF;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    border-radius: 20px;
-
-}
-.card5{
-    height: 350px;
-    margin-right:80px;
-    background-color: #FFF;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    border-radius: 20px;
-
-}
-
-
-

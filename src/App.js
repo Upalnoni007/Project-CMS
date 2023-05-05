@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Adminhome from './components/adminDashboard/Adminhome';
 import About from './components/adminDashboard/About';
 import Contact from './components/adminDashboard/Contact';

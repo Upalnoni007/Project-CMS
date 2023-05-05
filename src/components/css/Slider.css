@@ -1,0 +1,21 @@
+.c-item{
+    height: 650px;
+    padding: 5px;
+}
+.c-item .c-img{
+    height: 100%;
+    width: 1300px !important;
+    object-fit: fill;
+    filter: brightness(0.8);
+    border-radius: 7px;
+}
+
+@media (max-width: 480px){
+    .c-item{
+        height: 220px;
+    }
+    .c-img{
+        object-fit: fill;
+        max-width: 388px;
+    }
+}

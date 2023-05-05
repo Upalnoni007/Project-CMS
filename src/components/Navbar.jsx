@@ -12,7 +12,7 @@ import './css/Navbar.css';
 // import Error from "./adminDashboard/nav-items/Error";
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function NavScrollExample() {
+function NavBar() {
   return (
     <>
       <Navbar className="OffNav" variant="dark" expand="lg">
@@ -59,4 +59,4 @@ function NavScrollExample() {
   );
 }
 
-export default NavScrollExample;
+export default NavBar;

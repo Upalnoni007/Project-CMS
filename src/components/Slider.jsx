@@ -1,75 +1,35 @@
 import Carousel from 'react-bootstrap/Carousel';
-
+import './css/Slider.css';
 
 function Slider() {
   return (
-    <div className='slider mx-auto'>
     <Carousel>
-      <Carousel.Item>
+      <Carousel.Item className='c-item'>
         <img
-          className="d-block mx-auto"
-          src="https://scontent.fccu18-1.fna.fbcdn.net/v/t1.6435-9/165686796_254607169663752_3034720709179679227_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_ohc=fCGjdO8j7UcAX_v8z6h&_nc_ht=scontent.fccu18-1.fna&oh=00_AfBMAY-Fzhr7QWrfNbczliKNC85PYpUUdqHigXUiVgVRVw&oe=645F95B4" height="550px"
+          className="d-block w-100 c-img mx-auto"
+          src="https://scontent.fccu18-1.fna.fbcdn.net/v/t1.6435-9/165686796_254607169663752_3034720709179679227_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_ohc=fCGjdO8j7UcAX_v8z6h&_nc_ht=scontent.fccu18-1.fna&oh=00_AfBMAY-Fzhr7QWrfNbczliKNC85PYpUUdqHigXUiVgVRVw&oe=645F95B4"
           alt="First slide"
         />
-        <Carousel.Caption>
-          {/* <h3>First slide label</h3> */}
-          {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-        </Carousel.Caption>
+
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className='c-item'>
         <img
-          className="d-block mx-auto"
-          src="https://www.mckvie.edu.in/wp-content/uploads/2021/05/college_building.jpg" height="550px"
+          className="d-block w-100 c-img mx-auto"
+          src="https://www.mckvie.edu.in/wp-content/uploads/2021/05/college_building.jpg"
           alt="Second slide"
         />
 
-        <Carousel.Caption>
-          {/* <h3>Second slide label</h3> */}
-          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-        </Carousel.Caption>
+
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className='c-item'>
         <img
-          className="d-block mx-auto"
-          src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/278016788_493134925810974_6419414322591213696_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=19026a&_nc_ohc=_ozbjzSjL2oAX8TuU3z&_nc_ht=scontent.fccu3-1.fna&oh=00_AfAPY8_iK118ydHEhmUxKJ3kRSpcfb7NQwUhQGycZDNI_Q&oe=644876A1" height="550px"
-          alt="Third slide"
+          className="d-block w-100 c-img mx-auto"
+          src="https://lsplwebsitedata.s3.ap-south-1.amazonaws.com/mckvi-wp-data/wp-content/uploads/2022/12/08165513/UtopiaWeb.jpg"
         />
 
-        <Carousel.Caption>
-          {/* <h3>Second slide label</h3> */}
-          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block mx-auto"
-          src="https://lsplwebsitedata.s3.ap-south-1.amazonaws.com/mckvi-wp-data/wp-content/uploads/2022/12/08165513/UtopiaWeb.jpg" height="550px"
-          alt="Fourth slide"
-        />
 
-        <Carousel.Caption>
-          {/* <h3>Third slide label</h3> */}
-          <p>
-            {/* Praesent commodo cursus magna, vel scelerisque nisl consectetur. */}
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block mx-auto"
-          src="https://scontent.fccu18-1.fna.fbcdn.net/v/t39.30808-6/273011698_453099849814482_2205560438973126697_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=19026a&_nc_ohc=7E0sR1Je2MIAX-tMs7g&_nc_ht=scontent.fccu18-1.fna&oh=00_AfCmWWbb3zObiFSHsHTPFbo-sMDkAvJ-zYcgooOesoKZqw&oe=643BE4E5" height="550px"
-          alt="Fifth slide"
-        />
-
-        <Carousel.Caption>
-          {/* <h3>Third slide label</h3> */}
-          <p>
-            {/* Praesent commodo cursus magna, vel scelerisque nisl consectetur. */}
-          </p>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    </div>
   );
 }
 
