@@ -14,23 +14,54 @@ const Footer = () => {
     <footer>
       <div className='footCont d-flex justify-content-around flex-sm-row flex-column'>
 
-        <div id='InstAddr' className='py-3 FootAddr'>
+        <div id='InstAddr' className='d-flex flex-column py-3 FootAddr'>
           <h4 className='AddrHeading'>Institute Address</h4>
-          <p><FaHome size={20} /> &ensp;MCKV Institute of Engineering<br /> &emsp;&emsp;243 G. T. Road (North),Liluah, Howrah – 711204</p><br />
+          <div className="footerTexts">
+            <FaHome className='textIcons' size={20} />
+            <div>
+              MCKV Institute of Engineering 243 G. T. Road (North),Liluah, Howrah – 711204
+            </div>
+          </div>
 
-          <p><FaPhoneAlt size={20} /> &ensp;+91 33 2654 9315 / 17<br /> &emsp;&emsp;+91 33 2654 9318</p><br />
+          <div className="footerTexts">
+            <FaPhoneAlt className='textIcons' size={20} />
+            <div>
+              +91 33 2654 9315 / 17<br />+91 33 2654 9318
+            </div>
+          </div>
 
-          <p className='mb-0'><MdEmail size={20} /> &ensp;principal@mckvie.edu.in / info@mckvie.edu.in</p>
+          <div className="footerTexts">
+            <MdEmail className='textIcons' size={20} />
+            <div>
+              principal@mckvie.edu.in / info@mckvie.edu.in
+            </div>
+          </div>
         </div>
-        <hr/>
+        <hr />
 
-        <div id='TrustOff' className='py-3 FootAddr'>
+        <div id='TrustOff' className='d-flex flex-column py-3 FootAddr'>
           <h4 className='AddrHeading'>Trust Office</h4>
-          <p><FaHome size={20} /> &ensp;‘Laxmi Niketan’<br /> &emsp;&emsp;1st Floor 243, G. T. Road(North) Liluah, Howrah – 711 204</p><br />
+          <div className="footerTexts">
+            <FaHome className='textIcons' size={20} />
+            <div>
+              ‘Laxmi Niketan’ , 1st Floor 243, G. T. Road(North) Liluah, Howrah – 711 204.
+            </div>
+          </div>
 
-          <p><FaPhoneAlt size={20} /> &ensp;00 91 33 26548604/05<br /> &emsp;&emsp;00 91 33 2654 9318</p><br />
+          <div className="footerTexts">
+            <FaPhoneAlt className='textIcons' size={20} />
+            <div>
+              00 91 33 26548604/05<br />00 91 33 2654 9318
+            </div>
+          </div>
 
-          <p className='mb-0'><MdEmail size={20} /> &ensp;principal@mckvie.edu.in</p>
+          <div className="footerTexts">
+            <MdEmail className='textIcons' size={20} />
+            <div>
+              principal@mckvie.edu.in
+            </div>
+          </div>
+
         </div>
 
       </div>

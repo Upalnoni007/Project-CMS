@@ -28,8 +28,17 @@ footer{
 }
 .AddrHeading{
     font-weight: bold;
-    margin-bottom: 40px;
 }
 a{
     text-decoration: none !important;
+}
+
+.FootAddr .footerTexts{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.FootAddr .footerTexts .textIcons{
+    flex-shrink: 0;
 }
