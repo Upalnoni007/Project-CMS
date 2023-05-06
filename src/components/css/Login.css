@@ -24,6 +24,9 @@
   width:400px;
   border-radius: 10px;
 }
+.formCont .adminLogBtn{
+  width: fit-content;
+}
 
 @media (max-width: 480px) {
   .formCont{

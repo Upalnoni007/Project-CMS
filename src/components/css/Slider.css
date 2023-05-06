@@ -14,8 +14,7 @@
     .c-item{
         height: 220px;
     }
-    .c-img{
-        object-fit: fill;
-        max-width: 388px;
+    .c-item .c-img{
+        max-width: 380px !important;
     }
 }

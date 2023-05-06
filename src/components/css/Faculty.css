@@ -1,54 +1,34 @@
+.Heading{
+    background-color: rgb(8, 8, 108);
+    color: gold;
+    width: fit-content;
+    border-radius: 20px;
+}
 
-*{
-    margin: 0;
-    padding: 0;
+.facultyCards .facultyImgs{
+    height: 240px;
+    object-fit: contain;
 }
-.container{
-    display:flex;
+
+.faculties{
+    flex-wrap: wrap;
 }
-.container1{
-    display: flex;
-    margin-top: 10px;
-    margin-left: 75px;
-    margin-right: 75px;
+
+.faculties .facultyCards{
+    margin: 0px;
+    background-color: pink;
+    flex: 1 1 20%;
+    width: 480px;
 }
-.ECE{
-    text-align:center;
-    font-style:italic;
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(170,255,62,1) 100%);
-    margin-left:270px;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    margin-right:270px;
-    border: solid black;
-    border-radius: 10px;
-}
-.cards{
+
+@media (max-width: 480px){
+    .faculties{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
     
-    margin-left: 20px;
-    width: 25%;
-    height: 320px;
-}
-.cards:hover{
-    border:3px solid aqua;
-}
-.card img{
-    height:100px;
-    width: 150px;
-    margin-left: 60px;
-}
-.cardinfo{
-    margin-left: 10px;
-    height: 220px;
-}
-.cardname{
-    font-size:medium;
-    font:bolder
-}
-@media screen and(min-width:500px){
-    .container{
-        display: grid;
+    .faculties .facultyCards{
+        width: 23rem !important;
+        margin: 0 auto;
     }
 }
-

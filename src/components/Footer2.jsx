@@ -11,7 +11,7 @@ export default function App() {
   return (
     <MDBFooter className='text-center text-white' style={{ backgroundColor: '#caced1' }}>
       <MDBContainer className='p-4'>
-        <section className=''>
+        <section>
           <MDBRow>
             <MDBCol lg='2' md='12' className='mb-4 mb-md-0'>
               <MDBRipple
