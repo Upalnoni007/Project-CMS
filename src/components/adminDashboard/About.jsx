@@ -17,7 +17,7 @@ const About = () => {
 
       {/* <div className='pic'><img width="950" height="500"src="http://www.mckvie.edu.in/wp-content/uploads/2021/05/college_building.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="http://www.mckvie.edu.in/wp-content/uploads/2021/05/college_building.jpg 750w, http://www.mckvie.edu.in/wp-content/uploads/2021/05/college_building-300x144.jpg 300w" sizes="(max-width: 750px) 100vw, 750px"></img></div>  */}
 
-      <div className='aboutus'>
+      <div className='aboutus mt-2'>
         <h1>About Us</h1>
       </div>
       <div className='abt'>
