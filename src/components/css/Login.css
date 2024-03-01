@@ -1,38 +1,50 @@
-.flex-container{
-    display: flex;
-    justify-content: center;
+.bgLogin{
+  background-image: url(https://images.pexels.com/photos/6984992/pexels-photo-6984992.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom bottom;
 }
-.flex-item{
-    border: 2px solid rgb(2, 163, 2);
-    height:420px;
-    width:400px;
-    border-radius: 10px;
-    margin-top: -520px;
+
+.formCont input{
+  padding: 3px;
+  width: 70%;
+  border-radius: 5px;
+  margin: 0 auto;
 }
-.flex-item input{
-    height:35px;
-    border-radius: 5px;
-    border: none;
-    border:1.5px solid rgb(2, 163, 2);
-    width:68%;
-    margin-top:30px;
-    margin-left: 30px;
-    padding-left: 35px;
+.formCont{
+  box-shadow: rgba(7, 7, 7, 0.534) 0px 7px 29px 0px;
+
+  gap: 1rem;
+  /* background-color: pink; */
+  border: 2px solid black;
+  height:420px;
+  width:400px;
+  border-radius: 10px;
 }
-.flex-item i{
-    color:rgb(2, 163, 2);
-    position: absolute;
-    padding-top: 40px;
-    margin-left: -260px;
+.formCont .adminLogBtn{
+  width: fit-content;
 }
-.forgot-password nav .forgot{
-    color:black;
-    text-decoration: none;
-    float:right;
-    padding-right: 10px;
-    padding-top: 15px;
+
+@media (max-width: 480px) {
+  .formCont{
+    min-height: 400px;
+    width: 380px;
+  }
+  .formCont input{
+    width: 75%;
+    margin-top: 5px;
+    padding: 6px;
+    box-shadow: rgba(7, 7, 7, 0.534) 0px 7px 29px 0px;
+  }
+  .bgLogin{
+    background-position: bottom;
+  }
 }
-.Login{
+
+.button-85 {
   padding: 0.6em 2em;
   border: none;
   outline: none;
@@ -47,7 +59,7 @@
   touch-action: manipulation;
 }
 
-.Login:before {
+.button-85:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -87,7 +99,7 @@
   }
 }
 
-.Login:after {
+.button-85:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -97,9 +109,4 @@
   left: 0;
   top: 0;
   border-radius: 10px;
-}
-.flex-item .Login{
-    margin-top: 95px;
-    margin-left: 145px;
-    color:#48ff00;
 }

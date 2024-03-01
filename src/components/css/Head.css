@@ -1,17 +1,23 @@
-.header{
-    display: flex;
-    justify-content: center;
-    height: 90px;
+.header {
+    min-height: 90px;
     background-color: #FAEDCD;
 }
-.hi{
-    height: 80px;
-    float: left;
+
+.header .hi img {
+    height: 5rem;
+    width: 6.25rem;
+    object-fit: contain;
 }
-.hi img{
-    margin-right: 20px;
-}
-.mc{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+
+@media (max-width: 480px) {
+    .header .mc h5 {
+        font-size: 1rem;
+    }
+    .header .hi img{
+        height: 70px;
+        width: 90px;
+    }
+    .mc{
+        padding: 2px 2px 2px 0px;
+    }
 }

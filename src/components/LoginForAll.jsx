@@ -1,34 +1,47 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from 'react'
 import './css/LoginMain.css';
-const Loginforall=()=>{
-    return(
-        <>
-            <img className='img' src="https://images.pexels.com/photos/6984992/pexels-photo-6984992.jpeg?auto=compress&cs=tinysrgb&w=600" height="200%" width="100%"  alt="login-pic2"/>
-            <div className='fcontainer'>
-                <div className='fitem'>
-                    <i id="admin" class="fas fa-user-tie"></i>
-                    <h3>ADMIN</h3>
-                    <nav>
-                        <NavLink to="/Loginadmin"><button className="btn btn-outline-success">Login</button></NavLink>
-                    </nav>
-                </div>
-                <div className='fitem'>
-                <i id="faculty" class="fas fa-user"></i>
-                    <h3>FACULTY</h3>
-                    <nav>
-                        <NavLink to="/Loginfaculty"><button className="btn btn-outline-success">Login</button></NavLink>
-                    </nav>
-                </div>
-                <div className='fitem'>
-                    <i id="student" class="fas fa-user-graduate"></i>
-                    <h3>STUDENT</h3>
-                    <nav>
-                        <NavLink to="/Loginstudent"><button className="btn btn-outline-success">Login</button></NavLink>
-                    </nav>
-                </div>
+import { FaUserTie, FaUser, FaUserGraduate } from "react-icons/fa";
+import { IconContext } from 'react-icons';
+import { NavLink } from 'react-router-dom';
+
+const LoginForAll = () => {
+    return (
+        <IconContext.Provider value={{ size: '75px' }}>
+            <div className='bg d-flex justify-content-around align-items-center flex-sm-row flex-column'>
+
+                    <div id='adminDiv' className='loginItem text-center d-flex flex-column'>
+                        <div className='iconDiv my-4'>
+                            <FaUserTie className='loginIcon' />
+                        </div>
+                        <h5 className='user'>ADMIN</h5>
+                        <div className='btnDiv mt-auto'>
+                            <NavLink to="/Loginadmin"><button className="btn btn-outline-success">Login</button></NavLink>
+                        </div>
+                    </div>
+
+                    <div id='facultyDiv' className='loginItem text-center d-flex flex-column'>
+                        <div className='iconDiv my-4'>
+                            <FaUser className='loginIcon' />
+                        </div>
+                        <h5 className='user'>Faculty</h5>
+                        <div className='btnDiv mt-auto'>
+                            <NavLink to="/Loginfaculty"><button className="btn btn-outline-success">Login</button></NavLink>
+                        </div>
+                    </div>
+
+                    <div id='studentDiv' className='loginItem text-center d-flex flex-column'>
+                        <div className='iconDiv my-4'>
+                            <FaUserGraduate className='loginIcon' />
+                        </div>
+                        <h5 className='user'>Student</h5>
+                        <div className='btnDiv mt-auto'>
+                            <NavLink to="/Loginstudent"><button className="btn btn-outline-success">Login</button></NavLink>
+                        </div>
+                    </div>
+                
             </div>
-        </>
+        </IconContext.Provider>
     )
 }
-export {Loginforall};
+
+export default LoginForAll

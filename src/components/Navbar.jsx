@@ -12,7 +12,7 @@ import './css/Navbar.css';
 // import Error from "./adminDashboard/nav-items/Error";
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function NavScrollExample() {
+function NavBar() {
   return (
     <>
       <Navbar className="OffNav" variant="dark" expand="lg">
@@ -25,9 +25,10 @@ function NavScrollExample() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <NavLink className="NavItms" to="/">Home</NavLink>
+              <NavLink className="NavItms" to="/adminHome">Home</NavLink>
               <NavLink className="NavItms" to="/about">About</NavLink>
               <NavLink className="NavItms" to="/contact">Contact us</NavLink>
+              <NavLink className="NavItms" to="/logout">Logout</NavLink>
               {/* <NavDropdown title="Profile" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3" disabled>You are on Admin page</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Settings</NavDropdown.Item>
@@ -59,4 +60,4 @@ function NavScrollExample() {
   );
 }
 
-export default NavScrollExample;
+export default NavBar;

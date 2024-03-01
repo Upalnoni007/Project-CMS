@@ -2,8 +2,6 @@ import React from 'react';
 import {
   MDBFooter,
   MDBContainer,
-  MDBIcon,
-  MDBInput,
   MDBCol,
   MDBRow,
   MDBRipple
@@ -13,7 +11,7 @@ export default function App() {
   return (
     <MDBFooter className='text-center text-white' style={{ backgroundColor: '#caced1' }}>
       <MDBContainer className='p-4'>
-        <section className=''>
+        <section>
           <MDBRow>
             <MDBCol lg='2' md='12' className='mb-4 mb-md-0'>
               <MDBRipple
@@ -100,15 +98,15 @@ export default function App() {
                 </a>
               </MDBRipple>
             </MDBCol>
-            
+
           </MDBRow>
-          
+
         </section>
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © 2023 Copyright: All Copyright Reserved to USBN
-      
+
       </div>
     </MDBFooter>
   );
