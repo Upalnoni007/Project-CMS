@@ -1,10 +1,9 @@
 .div-1 .cards .facultyImg{
     height: 16rem;
-    width: 50%;
-    object-fit: cover;
+    /* width: 50%; */
+    object-fit: contain;
 }
 .div-1 .cards{
-    
     margin: 0px;
     flex-basis: 30%;
 }
@@ -12,25 +11,25 @@
     flex-wrap: wrap;
 }
 
-@media (max-width: 480px){
+@media (max-width: 768.0px){
     .div-1{
         flex-direction: column;
         flex-wrap: nowrap;
     }
     .div-1 .cards{
-        width: 17.5rem;
+        width: 75%;
         margin: 0 auto;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
-    .div-1 .cards .facultyImg{
+    /* .div-1 .cards .facultyImg{
         width: 100%;
-    }
+    } */
 }
 .cards .links{
     color: black;
 }
 
-@media (min-width: 481px){
+@media (min-width: 768.1px){
 
     .div-1 .cards{
         transition: all 0.2s ease-in-out;
