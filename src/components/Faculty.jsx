@@ -90,14 +90,14 @@ const Faculty = () => {
         </Card>
 
         <Card className='facultyCards' style={{ width: '25rem' }}>
-          <Card.Img className='facultyImgs' variant="top" src="http://www.mckvie.edu.in/wp-content/uploads/2021/06/swarup_kr_mitra.200x0-150x150.jpg" />
+          <Card.Img className='facultyImgs' variant="top" src="http://www.mckvie.edu.in/wp-content/uploads/2021/06/pubali_mukherjee.200x0-150x150.jpg" />
           <Card.Body>
-            <Card.Title>Dr. Swarup Kr. Mitra</Card.Title>
+            <Card.Title>Dr. Pubali Mukherjee</Card.Title>
             <Card.Text>
               Professor and HOD of<br />Electronics And Communication Engineering
             </Card.Text>
             <Card.Text>
-              B.Tech, M.Tech, Ph.D.(Engg.)(20 years experience)<br />DOJ: 01-03-2008
+            B.Tech, M.Tech, Ph.D.(Tech.)(15 years experience) (Teaching), 2 years(Research)<br />DOJ: 14-08-2007
             </Card.Text>
           </Card.Body>
         </Card>
@@ -111,6 +111,57 @@ const Faculty = () => {
             </Card.Text>
             <Card.Text>
               B.Tech, M.Tech, Pursuing Ph.D. (Tech.)(11.5 years experience)<br />DOJ: 19-02-2011
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className='facultyCards' style={{ width: '25rem' }}>
+          <Card.Img className='facultyImgs' variant="top" src="http://www.mckvie.edu.in/wp-content/uploads/2021/06/debasree_maity.200x0-150x150.jpg" />
+          <Card.Body>
+            <Card.Title>Ms. Debasree Maity</Card.Title>
+            <Card.Text>
+              Assistant Professor of<br />Electronics And Communication Engineering
+            </Card.Text>
+            <Card.Text>
+            B.Tech, M.Tech(14.5 years experience)<br />DOJ: 02-09-2008
+            </Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card className='facultyCards' style={{ width: '25rem' }}>
+          <Card.Img className='facultyImgs' variant="top" src="http://www.mckvie.edu.in/wp-content/uploads/2021/06/sekhar.200x0-150x150.jpg" />
+          <Card.Body>
+            <Card.Title>Mr.Sekhar Rana</Card.Title>
+            <Card.Text>
+              Assistant Professor of<br />Electronics And Communication Engineering
+            </Card.Text>
+            <Card.Text>
+            B.Tech, M.Tech, Ph.D. (Engg.) (pursuing)(13 years experience)<br />DOJ: 02-08-2011
+            </Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card className='facultyCards' style={{ width: '25rem' }}>
+          <Card.Img className='facultyImgs' variant="top" src="http://www.mckvie.edu.in/wp-content/uploads/2021/06/rajarshi_sanyal.200x0-150x150.jpg" />
+          <Card.Body>
+            <Card.Title>Dr.Rajarshi Sanyal</Card.Title>
+            <Card.Text>
+              Assistant Professor of<br />Electronics And Communication Engineering
+            </Card.Text>
+            <Card.Text>
+            AMIETE, M.Tech, Ph.D.(Engg.)(18 years experience)<br />DOJ: 13-07-2011
+            </Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card className='facultyCards' style={{ width: '25rem' }}>
+          <Card.Img className='facultyImgs' variant="top" src="http://www.mckvie.edu.in/wp-content/uploads/2021/06/satadal_saha.200x0-150x150.jpg" />
+          <Card.Body>
+            <Card.Title>Dr. Satadal Saha</Card.Title>
+            <Card.Text>
+             Professor <br />Electronics And Communication Engineering
+            </Card.Text>
+            <Card.Text>
+            B.Tech, M.Tech, Ph.D.(Engg.)(22 years experience)<br />DOJ: 31-07-2004
             </Card.Text>
           </Card.Body>
         </Card>

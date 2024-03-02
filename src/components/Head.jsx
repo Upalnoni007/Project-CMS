@@ -8,7 +8,7 @@ const Head =()=>{
                <img src="img/logo2.png" alt="logo"></img>
             </div>
             <div className="mc d-flex flex-column gap-1"> 
-                <h1 className="my-auto"> MCKV Institute Of Engineeting</h1>
+                <h1 className="my-auto"> MCKV Institute Of Engineering</h1>
                 <h5 className="my-auto"> NAAC accredited autonomus institute under UGC act 1965,Affiliated to MAAKUT</h5>
             </div>
         </div>
