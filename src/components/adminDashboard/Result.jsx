@@ -1,8 +1,6 @@
 import { useState , useEffect} from "react";
 import "../css/Result.css";
 import Tablehoc from "../adminDashboard/Tablehoc";
-import { Column } from "react-table";
-import { Link } from "react-router-dom";
 import axios from "axios";
 
 const columns = [
