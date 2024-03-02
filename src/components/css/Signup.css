@@ -1,7 +1,16 @@
+.signup-container {
+  display: flex;
+  min-height: 100vh;
+  min-height: 100svh;
+  justify-content: center;
+  align-items: center;
+}
+
 .signup-form {
-  padding-top: 100px;
-  max-width: 400px;
-  margin: 20px auto;
+  /* padding-top: 100px; */
+  /* max-width: 400px; */
+  /* margin: 0 auto; */
+  width: fit-content;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -10,12 +19,13 @@
 }
 
 form {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
 input {
-  width: 100%;
+  width: 20rem;
   padding: 10px;
   box-sizing: border-box;
   margin-bottom: 10px;

@@ -11,7 +11,7 @@ export default function Signup() {
         email: '',
         password: '',
         cpassword: '',
-        examroll:'',
+        examroll: '',
     });
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -42,55 +42,57 @@ export default function Signup() {
 
 
     return (
-        <div className='signup-form'>
-            <form onSubmit={submit}>
-                <input
-                    type="text"
-                    name="firstName"
-                    placeholder="First Name"
-                    value={formData.firstName}
-                    onChange={handleChange}
-                />
-                <input
-                    type="text"
-                    name="lastName"
-                    placeholder="Last Name"
-                    value={formData.lastName}
-                    onChange={handleChange}
-                />
-                <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    value={formData.email}
-                    onChange={handleChange}
-                />
-                <input
-                    type="password"
-                    name="password"
-                    placeholder="password"
-                    value={formData.password}
-                    onChange={handleChange}
-                />
-                <input
-                    type="cpassword"
-                    name="cpassword"
-                    placeholder="Confarmpassword"
-                    value={formData.cpassword}
-                    onChange={handleChange}
-                />
-                <input
-                    type="examroll"
-                    name="examroll"
-                    placeholder="Exam-roll"
-                    value={formData.examroll}
-                    onChange={handleChange}
-                />
-                {/* Add more input fields as needed */}
-                <div className='from-btn'>
-                <button type="submit">Submit</button>
-                </div>
-            </form>
+        <div className='signup-container'>
+            <div className='signup-form'>
+                <form onSubmit={submit}>
+                    <input
+                        type="text"
+                        name="firstName"
+                        placeholder="First Name"
+                        value={formData.firstName}
+                        onChange={handleChange}
+                    />
+                    <input
+                        type="text"
+                        name="lastName"
+                        placeholder="Last Name"
+                        value={formData.lastName}
+                        onChange={handleChange}
+                    />
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        value={formData.email}
+                        onChange={handleChange}
+                    />
+                    <input
+                        type="password"
+                        name="password"
+                        placeholder="password"
+                        value={formData.password}
+                        onChange={handleChange}
+                    />
+                    <input
+                        type="cpassword"
+                        name="cpassword"
+                        placeholder="Confarmpassword"
+                        value={formData.cpassword}
+                        onChange={handleChange}
+                    />
+                    <input
+                        type="examroll"
+                        name="examroll"
+                        placeholder="Exam-roll"
+                        value={formData.examroll}
+                        onChange={handleChange}
+                    />
+                    {/* Add more input fields as needed */}
+                    <div className='from-btn'>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
     )
 }
