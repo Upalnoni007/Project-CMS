@@ -9,11 +9,11 @@ const columns = [
     accessor: "subjectcode",
   },
   {
-    Header: "Subjects-Offerds",
+    Header: "Subjects-Offered",
     accessor: "subjectofferds",
   },
   {
-    Header: "Latter-Grade",
+    Header: "Letter-Grade",
     accessor: "lattergrade",
   },
   {
@@ -21,11 +21,11 @@ const columns = [
     accessor: "points",
   },
   {
-    Header: "Creadit",
+    Header: "Credit",
     accessor: "creadit",
   },
   {
-    Header: "Creadits-Points",
+    Header: "Credit-Points",
     accessor: "creaditpoints",
   },
  
