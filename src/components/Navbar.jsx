@@ -28,6 +28,7 @@ function NavBar() {
               <NavLink className="NavItms" to="/adminHome">Home</NavLink>
               <NavLink className="NavItms" to="/about">About</NavLink>
               <NavLink className="NavItms" to="/contact">Contact us</NavLink>
+              <NavLink className="NavItms" to="/logout">Logout</NavLink>
               {/* <NavDropdown title="Profile" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3" disabled>You are on Admin page</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Settings</NavDropdown.Item>

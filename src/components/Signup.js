@@ -1,0 +1,96 @@
+
+import React, { useState } from 'react'
+import axios from 'axios'
+import "./css/Signup.css"
+export default function Signup() {
+
+
+    const [formData, setFormData] = useState({
+        firstName: '',
+        lastName: '',
+        email: '',
+        password: '',
+        cpassword: '',
+        examroll:'',
+    });
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value,
+        });
+    };
+    let submit = async (e) => {
+        e.preventDefault()
+
+        try {
+
+            alert("register succesfully")
+            const res = await axios.post("http://localHost:8000/reg", {
+                "data": formData
+            })
+            console.log(res.data)
+
+        }
+        catch {
+            console.log(e);
+        }
+    }
+
+
+
+
+
+    return (
+        <div className='container'>
+            <form onSubmit={submit}>
+                <input
+                    type="text"
+                    name="firstName"
+                    placeholder="First Name"
+                    value={formData.firstName}
+                    onChange={handleChange}
+                />
+                <input
+                    type="text"
+                    name="lastName"
+                    placeholder="Last Name"
+                    value={formData.lastName}
+                    onChange={handleChange}
+                />
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    value={formData.email}
+                    onChange={handleChange}
+                />
+                <input
+                    type="password"
+                    name="password"
+                    placeholder="password"
+                    value={formData.password}
+                    onChange={handleChange}
+                />
+                <input
+                    type="cpassword"
+                    name="cpassword"
+                    placeholder="Confarmpassword"
+                    value={formData.cpassword}
+                    onChange={handleChange}
+                />
+                <input
+                    type="examroll"
+                    name="examroll"
+                    placeholder="Exam-roll"
+                    value={formData.examroll}
+                    onChange={handleChange}
+                />
+                {/* Add more input fields as needed */}
+                <div className='button5'>
+                <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    )
+}

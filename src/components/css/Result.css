@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.box-container {
+    border: 2px solid #333; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    width: fit-content; /* Set width to content width */
+    margin: 20px auto; /* Center the box */
+    text-align: center; /* Center text inside the box */
+}
+
+h3 {
+    margin: 0; /* Remove default margin for h3 */
+}
+
+strong {
+    font-weight: bold; /* Make the text bold */
+}
+.howrah{
+    display: flex;
+    justify-content:space-between ;
+}
+.from-box{
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+}
