@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import "./css/Signup.css"
+import "./css/Button-85.css"
 export default function Signup() {
 
 
@@ -69,14 +70,14 @@ export default function Signup() {
                     <input
                         type="password"
                         name="password"
-                        placeholder="password"
+                        placeholder="Password"
                         value={formData.password}
                         onChange={handleChange}
                     />
                     <input
                         type="cpassword"
                         name="cpassword"
-                        placeholder="Confarmpassword"
+                        placeholder="Confirm password"
                         value={formData.cpassword}
                         onChange={handleChange}
                     />
@@ -89,7 +90,7 @@ export default function Signup() {
                     />
                     {/* Add more input fields as needed */}
                     <div className='from-btn'>
-                        <button type="submit">Submit</button>
+                        <button className='button-85' type="submit">Submit</button>
                     </div>
                 </form>
             </div>

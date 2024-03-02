@@ -11,7 +11,7 @@ const Adminhome = () => {
             <Head />
             <NavBar />
 
-            <div className=" div-1 text-center mt-3 d-flex gap-4 justify-content-center mb-3">
+            <div className="div-1 text-center mt-3 d-flex gap-4 justify-content-center mb-3">
 
                 <Card className=' cards px-1'>
                     <Card.Img className='facultyImg mx-auto' variant="top" src="https://img.freepik.com/free-vector/mathematics-concept-illustration_114360-3972.jpg?w=740&t=st=1681049347~exp=1681049947~hmac=306a325140bb0d168864cbc9de105bd5a2302b5ec3af0c0eaa56571307a12a8e" alt="1" />
