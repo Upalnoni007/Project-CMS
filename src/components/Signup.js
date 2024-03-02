@@ -42,7 +42,7 @@ export default function Signup() {
 
 
     return (
-        <div className='container'>
+        <div className='signup-form'>
             <form onSubmit={submit}>
                 <input
                     type="text"
@@ -87,7 +87,7 @@ export default function Signup() {
                     onChange={handleChange}
                 />
                 {/* Add more input fields as needed */}
-                <div className='button5'>
+                <div className='from-btn'>
                 <button type="submit">Submit</button>
                 </div>
             </form>
