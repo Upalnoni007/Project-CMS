@@ -1,0 +1,43 @@
+.map{
+    text-align: center;
+    margin-top: 25px;
+}
+.frame{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.institute{
+    margin-top: 80px;
+    padding-left: 60px;
+
+}
+#menu{
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px 25px 25px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+#menu i{
+    padding: 10px;
+    font-size: 22px;
+}
+.trust{
+    margin-left: 990px;
+    margin-top: -357px;
+}
+#menu1{
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px 25px 25px;
+    margin-left: 950px;
+    font-size: 20px;
+}
+#menu1 i{
+    padding: 10px;
+    font-size: 22px;
+
+}
+
+.ContactDiv{
+    min-height: 100vh;
+}

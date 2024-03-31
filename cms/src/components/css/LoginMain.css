@@ -1,0 +1,58 @@
+.bg {
+  background-image: url(https://images.pexels.com/photos/6984992/pexels-photo-6984992.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom bottom;
+}
+
+.loginItem {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border: 2px solid white;
+  border-radius: 15px;
+  min-height: 18.75rem;
+  min-width: 18.75rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.loginIcon{
+  border-radius: 65px;
+  padding: 15px;
+  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+}
+
+.loginItem .btn{
+  border:1.5px solid green;
+  font-size: 18px;
+  color:green;
+  border-radius: 20px;
+}
+.user{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+@media (max-width: 480px) {
+  .loginItem{
+    padding-top: 0.01rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .bg{
+    background-position: bottom;
+  }
+  .loginIcon{
+    height: 90px;
+    width: 90px;
+  }
+  .loginItem .btn{
+    font-size: 22px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}

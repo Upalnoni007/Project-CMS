@@ -1,0 +1,60 @@
+
+/* CSS */
+.button-34 {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+
+
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.box-container {
+    border: 2px solid #333; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    width: fit-content; /* Set width to content width */
+    margin: 20px auto; /* Center the box */
+    text-align: center; /* Center text inside the box */
+}
+
+h3 {
+    margin: 0; /* Remove default margin for h3 */
+}
+
+strong {
+    font-weight: bold; /* Make the text bold */
+}
+.howrah{
+    display: flex;
+    justify-content:space-between ;
+}
+.from-box{
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+}
+.pdf{
+    text-align: center;
+    padding-bottom: 15px;
+}
