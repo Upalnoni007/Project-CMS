@@ -7,7 +7,7 @@ function Tablehoc(columns, data, containerClassname, heading, showPagination = f
       columns,
       data,
       initialState: {
-        pageSize: 10,
+        pageSize: 20,
       },
     };
 
