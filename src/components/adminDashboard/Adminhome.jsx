@@ -44,13 +44,6 @@ const Adminhome = () => {
                     </Card.Body>
                 </Card>
 
-                <Card className='cards px-1'>
-                    <Card.Img className='facultyImg mx-auto' variant="top" src="https://img.freepik.com/free-vector/realistic-test-paper-composition-with-pencil-stack-students-paperwork-with-marks-correct-answers_1284-54249.jpg?w=740&t=st=1681054221~exp=1681054821~hmac=d2f7a224b95651a7105c50d9432b7fce4a1fea19af21ea2b2111e6f7d4e44c24" alt="5" />
-                    <Card.Body>
-                        <NavLink className={'links'} to='/*'> <Card.Title>Marks</Card.Title></NavLink>
-
-                    </Card.Body>
-                </Card>
 
 
             </div>

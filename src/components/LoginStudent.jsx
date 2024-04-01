@@ -12,7 +12,7 @@ const Loginstudent = () => {
                 <input type="password" name="password" placeholder="Password" id="password" />
                 <span className="ms-auto mt-4">Forgot Password?</span>
 
-                <NavLink to="/adminHome"><button class="button-86 mx-auto mt-5" role="button">Log in</button></NavLink>
+                <NavLink to="/adminHome"><button class="button-85 mx-auto mt-5" role="button">Log in</button></NavLink>
             </div>
         </div>
     )
