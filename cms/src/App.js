@@ -14,6 +14,7 @@ import { Loginstudent } from './components/LoginStudent';
 import LoginForAll from './components/LoginForAll';
 
 import Result from './components/adminDashboard/Result';
+import Attendance from './components/adminDashboard/Attendance';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path='/faculty' element={<Faculty />} />
           <Route exact path='/result' element={<Result />} />
+          <Route exact path='/attendance' element={<Attendance />} />
           {/* <Route exact path='/tablehoc' element={<Tablehoc />} /> */}
           <Route exact path="/*" element={<ErrPage />} />
 

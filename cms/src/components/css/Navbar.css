@@ -29,7 +29,7 @@ Nav .login-bt:hover{
     text-decoration: none;
 }
 .navbar-dark .navbar-nav .active{
-    width: fit-content;
+    /* width: fit-content; */
     background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
     color: bisque;
     border-radius: 15px;

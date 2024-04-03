@@ -41,3 +41,112 @@
 .ContactDiv{
     min-height: 100vh;
 }
+
+/* form section css */
+/* .section-contact .contact-content {
+    padding: 0;
+}
+
+.section-contact .contact-content h1 {
+    margin-bottom: 3.2rem;
+}
+
+.section-contact .container {
+    padding-top: 3.2rem;
+}
+
+.section-contact .section-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section-contact .section-form label {
+    display: block;
+    margin-bottom: 1.2rem;
+}
+
+.section-contact .section-form input,
+.section-contact .section-form textarea {
+    width: 80%;
+    padding: 0.6rem 0.6rem;
+} */
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  /* Main Heading */
+  .main-heading {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+  }
+  
+  /* Form Section */
+  .section-form {
+    background-color: #f9f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Label */
+  label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Input and Textarea */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #201818;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Submit Button */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+
+  }
+  .button07{
+    text-align: center;
+  }
+  
+  /* Responsiveness */
+  @media screen and (max-width: 600px) {
+    .main-heading {
+      font-size: 2rem;
+    }
+  }
+  
