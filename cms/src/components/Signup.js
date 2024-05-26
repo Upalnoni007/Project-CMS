@@ -3,9 +3,11 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import "./css/Signup.css"
 import "./css/Button-85.css"
+import { useNavigate } from 'react-router-dom';
+
 export default function Signup() {
 
-
+    const navigate=useNavigate() 
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -27,11 +29,13 @@ export default function Signup() {
         try {
 
             alert("register succesfully")
+            navigate('/Loginstudent')
+
             const res = await axios.post("http://localHost:8000/reg", {
                 "data": formData
             })
             console.log(res.data)
-
+           
         }
         catch {
             console.log(e);

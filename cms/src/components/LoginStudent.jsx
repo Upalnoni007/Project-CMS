@@ -6,12 +6,14 @@ import './css/Login.css';
 
 
 const Loginstudent = () => {
+  
     const navigate=useNavigate()  
     const [msg,setMsg]=useState("")
     const [formData, setFormData] = useState({
       email: '',
       password:'',
     });
+
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -19,6 +21,7 @@ const Loginstudent = () => {
           [name]: value,
         });
       };
+      
       let submit = async (e) => {
         e.preventDefault()
         console.log("SignUp")
