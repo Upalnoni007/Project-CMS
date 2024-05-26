@@ -9,7 +9,7 @@ const LoginForAll = () => {
         <IconContext.Provider value={{ size: '75px' }}>
             <div className='bg d-flex justify-content-around align-items-center flex-sm-row flex-column'>
 
-                    <div id='adminDiv' className='loginItem text-center d-flex flex-column'>
+                    {/* <div id='adminDiv' className='loginItem text-center d-flex flex-column'>
                         <div className='iconDiv my-4'>
                             <FaUserTie className='loginIcon' />
                         </div>
@@ -17,7 +17,7 @@ const LoginForAll = () => {
                         <div className='btnDiv mt-auto'>
                             <NavLink to="/Loginadmin"><button className="btn btn-outline-success">Login</button></NavLink>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div id='facultyDiv' className='loginItem text-center d-flex flex-column'>
                         <div className='iconDiv my-4'>

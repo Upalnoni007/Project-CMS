@@ -41,10 +41,10 @@ const Result = () => {
         name: "",
         lastname: "",
         email: "",
-//password: "",
         examroll:"",
       });
       const [is_login, setIs_login] = useState(0);
+      
      const callResult = async () => {
     try {
       const res = await axios.post("http://localHost:8000/result", {

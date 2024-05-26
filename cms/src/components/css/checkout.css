@@ -1,0 +1,42 @@
+.student{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.student-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    margin: 20px;
+  }
+  
+  .student-info {
+    display: flex;
+    margin-bottom: 100px;
+  }
+  
+  .student-photo {
+    margin-right: 20px;
+  }
+  
+  .student-photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .student-details {
+    flex-grow: 1;
+  }
+  
+  .student-details h2 {
+    margin-top: 0;
+  }
+  
+  .student-details p {
+    margin: 5px 0;
+  }
+  
