@@ -46,7 +46,7 @@ const Adminhome = () => {
 
 
                 <Card className='cards px-1'>
-                    <Card.Img className='facultyImg mx-auto' variant="top" src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RXhhbXxlbnwwfHwwfHx8MA%3D%3D0" alt="4" />
+                    <Card.Img className='facultyImg mx-auto' variant="top" src="https://img.freepik.com/premium-vector/cute-cartoon-character-boy-check-brag_81698-1309.jpg" alt="4" />
                     <Card.Body>
                         <NavLink className={'links'} to='/enter'> <Card.Title>CA Marks</Card.Title></NavLink>
 
@@ -61,13 +61,7 @@ const Adminhome = () => {
 
                     </Card.Body>
                 </Card>
-                <Card className='cards px-1'>
-                    <Card.Img className='facultyImg mx-auto' variant="top" src="https://img.freepik.com/premium-vector/exam-results-with-excellent-unsatisfactory-grades-paper-with-knowledge-assessment-best-worst-estimation-isolated-cartoon-set_91248-744.jpg?w=740" alt="4" />
-                    <Card.Body>
-                        <NavLink className={'links'} to='/result'> <Card.Title>Payment</Card.Title></NavLink>
-
-                    </Card.Body>
-                </Card>
+            
 
 
 

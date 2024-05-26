@@ -7,7 +7,7 @@ function Slider() {
       <Carousel.Item className='c-item'>
         <img
           className="d-block w-100 c-img"
-          src="https://scontent.fccu18-1.fna.fbcdn.net/v/t1.6435-9/165686796_254607169663752_3034720709179679227_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_ohc=fCGjdO8j7UcAX_v8z6h&_nc_ht=scontent.fccu18-1.fna&oh=00_AfBMAY-Fzhr7QWrfNbczliKNC85PYpUUdqHigXUiVgVRVw&oe=645F95B4"
+          src="https://images.collegedunia.com/public/college_data/images/appImage/1594895059Cover.jpg"
           alt="First slide"
         />
 
@@ -25,6 +25,7 @@ function Slider() {
         <img
           className="d-block w-100 c-img"
           src="https://lsplwebsitedata.s3.ap-south-1.amazonaws.com/mckvi-wp-data/wp-content/uploads/2022/12/08165513/UtopiaWeb.jpg"
+          alt="Third slide"
         />
 
 

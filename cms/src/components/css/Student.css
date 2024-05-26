@@ -1,13 +1,12 @@
 .Heading{
-    background-color: rgb(8, 8, 108);
+    background-color: rgb(0, 0, 0);
     color: gold;
-    /* width: fit-content; */
-    border-radius: 20px;
+    
 }
 
 .facultyCards .facultyImgs{
     height: 240px;
-    object-fit: contain;
+    justify-content: center
 }
 
 .faculties{
@@ -32,3 +31,4 @@
         margin: 0 auto;
     }
 }
+

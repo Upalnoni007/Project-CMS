@@ -1,0 +1,92 @@
+.body1 {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+  }
+  
+  .logout {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .logout h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .logout p {
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .logout button {
+    background-color: #6a11cb;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout button:hover {
+    background-color: #2575fc;
+  }
+  
+  .logout a {
+    color: #6a11cb;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .logout a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .logout {
+      padding: 1.5rem;
+    }
+  
+    .logout h2 {
+      font-size: 1.5rem;
+    }
+  
+    .logout p {
+      font-size: 1rem;
+    }
+  
+    .logout button {
+      padding: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logout {
+      padding: 1rem;
+    }
+  
+    .logout h2 {
+      font-size: 1.2rem;
+    }
+  
+    .logout p {
+      font-size: 0.9rem;
+    }
+  
+    .logout button {
+      padding: 0.4rem;
+    }
+  }
+  

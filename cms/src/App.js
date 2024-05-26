@@ -8,7 +8,7 @@ import Student from './components/Student';
 import ErrPage from './components/adminDashboard/ErrPage';
 import Faculty from './components/Faculty';
 import Signup from './components/Signup';
-import { Loginadmin } from './components/LoginAdmin';
+// import { Loginadmin } from './components/LoginAdmin';
 import {Loginfaculty} from "./components/LoginFaculty";
 import { Loginstudent } from './components/LoginStudent';
 import LoginForAll from './components/LoginForAll';

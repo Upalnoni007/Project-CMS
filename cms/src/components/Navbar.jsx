@@ -1,7 +1,7 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
+// import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from "react-router-dom";
@@ -44,7 +44,7 @@ function NavBar() {
             {/* <Nav>
               <Button variant="light" className="login-bt">Login</Button>
             </Nav> */}
-            <Form className="d-flex">
+            {/* <Form className="d-flex">
               <Form.Control
                 type="search"
                 placeholder="Search"
@@ -52,7 +52,7 @@ function NavBar() {
                 aria-label="Search"
               />
               <Button variant="success">Search</Button>
-            </Form>
+            </Form> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>
