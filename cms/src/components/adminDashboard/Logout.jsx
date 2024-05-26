@@ -1,5 +1,6 @@
 import React, { useEffect,useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
+import '../css/Logout.css';
 
 function Logout() {
 
@@ -21,14 +22,17 @@ function Logout() {
  }
 
   return (
-    <div>
+    <div className="body1">
+    <div className= "logout">
     {is_login==1 && <>
         <h2>Logout</h2>
-      <p>Are you sure you want to logout?</p>
+      <p> Are you sure you want to logout? </p>
+     
       <button onClick={handleLogout} >Logout</button>
     </>}
     {is_login === 0 && <Link to="/">Please login</Link>}
      
+    </div>
     </div>
   )
 }

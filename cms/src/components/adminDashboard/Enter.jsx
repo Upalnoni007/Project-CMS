@@ -43,7 +43,7 @@ const Enter = () => {
       <form onSubmit={submit}>
         <div className="bgLogin d-flex justify-content-center align-items-center">
           <div className="formCont d-flex flex-column text-center pe-3">
-            <h2 className="my-3">Enter your RollNumber</h2>
+            <h2 className="my-3">Enter your Roll-Number</h2>
             <input
               type="text"
               name="rollNumber"
