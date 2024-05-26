@@ -61,13 +61,7 @@ const Adminhome = () => {
 
                     </Card.Body>
                 </Card>
-                <Card className='cards px-1'>
-                    <Card.Img className='facultyImg mx-auto' variant="top" src="https://img.freepik.com/premium-vector/exam-results-with-excellent-unsatisfactory-grades-paper-with-knowledge-assessment-best-worst-estimation-isolated-cartoon-set_91248-744.jpg?w=740" alt="4" />
-                    <Card.Body>
-                        <NavLink className={'links'} to='/result'> <Card.Title>Payment</Card.Title></NavLink>
-
-                    </Card.Body>
-                </Card>
+            
 
 
 

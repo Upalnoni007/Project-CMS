@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Adminhome from './components/adminDashboard/Adminhome';
 import About from './components/adminDashboard/About';
 import Contact from './components/adminDashboard/Contact';
-import Student from './components/Student';
+// import Student from './components/Student';
 import ErrPage from './components/adminDashboard/ErrPage';
 import Faculty from './components/Faculty';
 import Signup from './components/Signup';
@@ -36,7 +36,7 @@ function App() {
           {/* <Route exact path="/adminHome" element={<Adminhome />} />
           <Route exact path="/studentHome" element={<Adminhome />} /> */}
           <Route exact path="/about" element={<About />} />
-          <Route exact path="/student" element={<Student/>} />
+          {/* <Route exact path="/student" element={<Student/>} /> */}
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path='/faculty' element={<Faculty />} />
           <Route exact path='/result' element={<Result />} />
