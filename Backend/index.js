@@ -13,7 +13,7 @@ const stripe = require("stripe")("sk_test_51P5i6qSG5jL02vtyrI65VvMyzyl9FZUvM0e6V
 
 require("dotenv").config();
 
-
+const port = 8001 || process.env.PORT;
 
 // for create an account
 app.post('/reg',async(req,res)=>{
@@ -362,6 +362,7 @@ app.post('/checkout2',async (req,res)=>{
 })
 
 
-app.listen(8001, () => {
+
+app.listen(port, () => {
     console.log("Port connected succesfully");
   });
