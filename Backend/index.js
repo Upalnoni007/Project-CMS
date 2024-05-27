@@ -13,7 +13,7 @@ const stripe = require("stripe")("sk_test_51P5i6qSG5jL02vtyrI65VvMyzyl9FZUvM0e6V
 
 require("dotenv").config();
 
-const port = 8001 || process.env.PORT;
+const port = 8000 || process.env.PORT;
 
 // for create an account
 app.post('/reg',async(req,res)=>{
