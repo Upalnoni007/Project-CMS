@@ -3,7 +3,7 @@
 const mongoose = require("mongoose");
 // const { type } = require("os");
 
-mongoose.connect('mongodb://127.0.0.1:27017/cms')
+mongoose.connect('mongodb+srv://upalmitra007:Upal9999@cluster0.anriyrn.mongodb.net/sms2')
   .then(() => console.log('Connected!'));
 
 const cmsSchema = new mongoose.Schema({
